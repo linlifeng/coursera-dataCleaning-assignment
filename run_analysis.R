@@ -126,6 +126,7 @@ average_summary_table <- summarize(group_by(mean_and_sd,
                                    mean(meanGrav_y),
                                    mean(meanGrav_z),
                                    mean(meanGyr_x),
+                                   mean(meanGyr_y),
                                    mean(meanGyr_z)
 )
 write.table(average_summary_table, file="average_summary_out.tab", row.name=FALSE)
