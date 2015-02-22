@@ -13,6 +13,8 @@ The run_analysis.R script does the following:
 
 5. export a text file with the cleaned dataset.
 
-for details about the dataset and other info, please visit 
+for details about the dataset and other info, please visit
+
 https://class.coursera.org/getdata-011/human_grading/view/courses/973498/assessments/3/submissions
+
 (you might need to register for the course first. it's free, and it's kinda awesome)
