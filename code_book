@@ -1,0 +1,33 @@
+The resulted file contains the following columns:
+"as.character(subject)" 
+"as.character(activity)" 
+"mean(meanBodyAcc_x)" 
+"mean(meanBodyAcc_y)" 
+"mean(meanBodyAcc_z)" 
+"mean(meanGrav_x)" 
+"mean(meanGrav_y)" 
+"mean(meanGrav_z)"
+"mean(meanGyr_x)"
+"mean(meanGyr_y)"
+"mean(meanGyr_z)"
+
+"as.character(subject)" :
+  the subject index. each number is one participant.
+
+"as.character(activity)" :
+  the index for activities: 
+  1 WALKING
+  2 WALKING_UPSTAIRS
+  3 WALKING_DOWNSTAIRS
+  4 SITTING
+  5 STANDING
+  6 LAYING
+
+"mean(meanBodyAcc_x/y/z)" :
+  average measurement of the body acceleration for the specific axis
+
+"mean(meanGrav_x/y/z)" :
+  average measurement of the gravitational acceleration for the specific axis
+
+"mean(meanGyr_x/y/z)":
+  average measurement of the gyroscope for the specific axis
